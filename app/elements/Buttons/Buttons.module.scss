@@ -1,0 +1,36 @@
+.loginButton{
+    
+    button{
+        display: flex;
+        justify-content: center;
+        span{
+            color: white;
+            font-weight: 700;
+            display: block;
+            margin-right: 15px;
+            margin-left: 20px;
+        }
+        background: linear-gradient(148.53deg, #014D73 4.35%, #511539 77.35%);
+        border: none;
+        border-radius:5px;
+        width: fit-content;
+        div{
+            display: none;
+        }
+      svg{
+          display: none;
+      }
+      }
+}
+@media screen and (max-width: 767px){
+    .loginButton{
+        button{
+            span{
+                font-size:7px;
+                margin-right: 0px;
+                margin-left: 5px;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,33 @@
+.features{
+    background: linear-gradient((148.53deg, #014D73 4.35%, #511539 77.35%));
+    padding: 50px;
+}
+.featureContainer{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 767px){
+    .features{
+        background: linear-gradient((148.53deg, #014D73 4.35%, #511539 77.35%));
+        padding: 10px;
+    }
+    .featureContainer{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and(min-width:2000px){
+    .features{
+      min-width: 50%;
+      width: 50%;
+      margin: auto;
+
+      min-width: 1400px;
+    }
+  }

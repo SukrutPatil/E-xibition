@@ -1,0 +1,25 @@
+.main{
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width:767px){
+    .main{
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and(min-width:2000px){
+    .main{
+      min-width: 50%;
+      width: 50%;
+      margin: auto;
+
+      min-width: 1400px;
+    }
+  }

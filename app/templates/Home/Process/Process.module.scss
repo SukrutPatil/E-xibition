@@ -1,0 +1,50 @@
+.process{
+    height: fit-content;
+    background: url(../../../../public/images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    padding: 50px;
+    margin-bottom: 0px;
+    .cards{
+        width: 80%;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h1{
+        text-align: center;
+        padding:20px;
+        font-family: 'Satisfy', cursive;
+         background: -webkit-linear-gradient(148.53deg, #014D73 4.35%, #511539 77.35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .process{
+        padding: 10px;
+        height: 100%;
+        h1{
+            font-size:36px;
+            padding: 25px;
+        }
+        .cards{
+            width: 95%;
+        }
+    }
+   
+}
+
+@media screen and(min-width:2000px){
+    .process{
+      min-width: 50%;
+      width: 50%;
+      margin: auto;
+
+      min-width: 1400px;
+    }
+  }
