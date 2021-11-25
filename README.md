@@ -1,1 +1,1 @@
-<img src="s3://tnlvs9-nc7bbgm/Blank diagram.png"/>
+<img src="https://github.com/SukrutPatil/E-xibition/blob/master/Blank%20diagram.png"/>
